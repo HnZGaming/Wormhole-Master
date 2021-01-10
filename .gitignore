@@ -7,3 +7,5 @@ obj/
 .svn/
 .git/
 .vs/
+
+.idea/
