@@ -100,7 +100,7 @@ namespace Wormhole
 
             return gridOwner;
         }
-        public static List<MyCubeGrid> FindGridList(string gridNameOrEntityId, MyCharacter character, bool includeConnectedGrids)
+        public static List<MyCubeGrid> FindGridList(string gridNameOrEntityId, IMyCharacter character, bool includeConnectedGrids)
         {
 
             List<MyCubeGrid> grids = new List<MyCubeGrid>();
